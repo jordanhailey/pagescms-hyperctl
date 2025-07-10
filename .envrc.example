@@ -1,0 +1,2 @@
+export HYPER_CONFIG=site.yaml
+export HYPER_BUILD_ID=dev
