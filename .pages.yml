@@ -1,0 +1,25 @@
+media:
+  input: static
+  output: /
+content:
+  - name: posts
+    filename: '{fields.title}/index.md'
+    label: Posts
+    path: content/blog
+    type: collection
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: created_at
+      label: Created at
+      type: string 
+    - name: layout
+      label: Layout
+      type: string
+    - name: description
+      label: Description
+      type: string
+    - name: content
+      label: Content
+      type: rich-text
