@@ -13,10 +13,14 @@ content:
       type: string
     - name: created_at
       label: Created at
-      type: string 
+      type: date 
     - name: layout
       label: Layout
-      type: string
+      type: select
+      options:
+        values:
+          - value: Post
+            label: default
     - name: description
       label: Description
       type: string
